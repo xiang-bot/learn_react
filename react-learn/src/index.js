@@ -1,4 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Clop from './Clop'
 
-ReactDOM.render(<h1>111</h1>,document.getElementById("root"))
+ReactDOM.render(<Clop
+    children1={<>hhhhhhhh</>}>
+</Clop>,document.getElementById("root"))
